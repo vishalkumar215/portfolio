@@ -1,0 +1,302 @@
+/* side bar */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.container{
+    display: flex;
+}
+
+
+.me h1{
+    margin: 90px 50px 5px 90px;
+    padding: 15px 50px;
+    font-size: 4rem;
+    font-weight: 10;
+    color: white;
+}
+.me h1 span{
+    background-color: #114b45;
+}
+.me h2{
+    margin: 0px 90px;
+    padding: 2px 50px;
+    color: white;
+}
+.me h2 span{
+    color: #124b45;
+}
+.content{
+    /* position: relative; */
+    width: 100vw; 
+    height: 100vh;
+     background-color: #00796beb; 
+    /* display:inline-block */
+    
+}
+
+.option{
+    /* position: fixed; */
+    width: 200px;
+    border: 2px solid rgb(51, 153, 194);
+    height: 99.5vh;
+
+}
+.option img{
+    width: 200px;
+    height: 35vh;
+}
+ul{
+    list-style-type:none;
+}
+.option li a{
+    display: inline;
+    font-size: 22px;
+    color: rgb(51, 153, 194);
+    
+    text-decoration: none;
+}
+.option li a:hover{
+    border-left: 4px solid skyblue;
+    font-weight: bold;
+    font-size: 23px;
+    
+}
+.me .para{
+    margin: 0px 90px;
+    padding: 0px 50px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 10px;
+
+
+}
+.fa {
+    margin-left: 145px;
+    padding: 13px 15px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: white;
+    color: #2867B2;;
+  }
+  .fa-github{
+      color: black;
+      margin-left: 33px;
+  }
+  .fa-github:hover{
+      background-color: black;
+      color: white;
+  }
+  .fa-linkedin:hover{
+    background-color:#2867B2;
+    color: white;
+}
+
+
+button{
+    width: 170px;
+    height:45px;
+    margin-top: 20px;
+    margin-left: 145px;
+    border: 2px solid white;
+    border-radius: 7px;
+
+}
+.intro-button .contact{
+    background-color:#00796beb ;
+    margin-left: 5px;
+}
+.intro-button .contact:hover{
+    background-color:white ;
+    
+}
+.about{
+    margin-left: 200px;
+    position: absolute;
+    top: 693px;
+    width: 100vw;
+}
+.about h1{
+    height: 15vh;
+    background-color: #114b45;
+}
+/* about page */
+header{
+    padding-top: 5px;
+    padding-bottom: 18px;
+    height: 9vh;
+    background-color: #277a72;
+    text-align: center;
+    align-items: center;
+    font-weight: 80px;
+    display: flex;
+
+    
+    font-size: 1.2rem;
+}
+header h1{
+    margin-left: 36vw;
+    margin-right: 45px;
+    
+}
+header a{
+    text-decoration: none;
+    /* border: 2px solid #130874; */
+    color: rgb(248, 215, 26);
+    font-size: 18px;
+}
+header a:hover{
+    font-size: 19px;
+    color: rgb(101, 202, 7);
+}
+.para{
+    margin: 25px 90px;
+    padding: 2px 30px;
+    display: inline-block;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight:20px;
+}
+
+/* project page*/
+.head{
+    margin-top: 0px;
+    padding-top: 15px;
+    height: 10vh;
+    font-size: 2rem;
+    text-align: center;
+    justify-items: center;
+    background-color: #11665e;
+}
+.project-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.box{
+    
+    border: 2px solid ;
+    text-align:justify;
+    height: 350px;
+    width:550px;
+    border-radius: 7px;
+}
+.box h2{
+    padding-left: 15px;
+}
+.box img{
+    
+    width:550px ;
+    height: 230px;
+}
+.box a{
+    text-decoration: none;
+}
+.box a:hover{
+    font-size: 30px;
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+
+}
+/* skill page style */
+.skill-content{
+    display: flex;
+    justify-content: space-evenly;
+    padding:20px 20px;
+}
+.logo{
+    text-align: center;
+    padding: 10px;
+    /* border: 2px solid red; */
+    width: 150px;
+    font-size: 20px;
+}
+.skill-box{
+    margin-top: 10px;
+    font-family: 'Roboto Mono', monospace; 
+    width: 90vw;
+    height: 280px;
+    /* border: 2px solid green; */
+    margin-left: 50px;
+}
+.skill-box h2{
+    padding-left: 5px;
+    color: #11665e;
+    font-size: 29px;
+    border-bottom: 2px solid #11665e;
+}
+.logo img{
+    width: 130px;
+    height: 90px;
+}
+/* education  styling page */
+.edu-box{
+    font-family: 'Roboto Mono', monospace;
+    padding: 15px;
+    /* text-align: center; */
+    width: 70vw;
+    height: 80vh;
+    /* border: 2px solid green; */
+    margin-left: 10vw;
+}
+.edu-box p{
+    font-weight: 25px;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+.edu-box h2{
+    font-size: 29px;
+    text-align: center;
+    /* display: inline-block; */
+
+    padding: 1px 40px;
+}
+.edu-box li{
+    list-style-type:square;
+    font-size: 20px;
+    color: black;
+    font-weight: 25px;
+}
+.edu-box p span{
+    font-weight: bolder;
+}
+
+
+/* contact page styling */
+
+
+.contact-box{
+    margin: 30px;
+    font-family: 'Roboto Mono', monospace;
+}
+.cont{
+    padding: 10px 15px;
+    display: flex;
+}
+.cont img{
+    width: 70px;
+    padding-right: 40px;
+    /* border: 1px solid #11665e ; */
+}
+.cont>div{
+    padding: 23px;
+    font-size:25px ;
+    
+}
+.cont>div>a{
+    color: #11665e;
+    text-decoration: none;
+}
+.cont>div>a:hover{
+    font-size: 26px;
+    font-weight: 45px;
+    color: #0ae6db;
+
+}
